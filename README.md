@@ -1,16 +1,10 @@
-# uts_mobile
+Nama    : Fatriya Ibnu Ash shidiqqi <br>
+Kelas   : TI - 3B <br>
+NIM     : 2241720138 <br>
+# uts pemrograman mobile
 
-A new Flutter project.
+## Halaman Home
+![alt text](image-1.png)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Halaman History
+![alt text](image-2.png)

@@ -10,6 +10,8 @@ class HistoryPage extends StatelessWidget {
       child: Scaffold(
         backgroundColor: Colors.grey[300],
         appBar: AppBar(
+          backgroundColor:
+              Colors.red, // Mengubah background AppBar menjadi merah
           title: const Center(
             child: Text('Transaction History'),
           ),

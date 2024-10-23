@@ -29,7 +29,7 @@ class SecondSection extends StatelessWidget {
             mainAxisSize: MainAxisSize.max,
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              _buildCard('Your Balance', 'Rp 12.3456', Icons.arrow_forward),
+              _buildCard('Your Balance', 'Rp 12.345', Icons.arrow_forward),
               const SizedBox(width: 10),
               _buildCard('Bonus Balance', '0', Icons.arrow_forward),
             ],

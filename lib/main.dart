@@ -23,6 +23,10 @@ class MyApp extends StatelessWidget {
           backgroundColor: const Color.fromARGB(255, 224, 29, 15),
         ),
         bottomNavigationBar: BottomNavigationBar(
+          type: BottomNavigationBarType
+              .fixed, // Menambahkan tipe fixed agar semua item terlihat
+          selectedItemColor: Colors.black, // Warna item yang dipilih
+          unselectedItemColor: Colors.black, // Warna item yang tidak dipilih
           items: const <BottomNavigationBarItem>[
             BottomNavigationBarItem(
               icon: Icon(Icons.home),
@@ -35,6 +39,11 @@ class MyApp extends StatelessWidget {
             BottomNavigationBarItem(
               icon: Icon(Icons.paypal),
               label: 'Pay',
+            ),
+            BottomNavigationBarItem(
+              // Menu Profile dengan warna hitam
+              icon: Icon(Icons.person),
+              label: 'Profile',
             ),
           ],
         ),
